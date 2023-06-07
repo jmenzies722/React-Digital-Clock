@@ -1,0 +1,16 @@
+/* Reset some basic elements */
+body, h1, h2, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set some global properties */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Hide the scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
